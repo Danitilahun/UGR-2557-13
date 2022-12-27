@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Web Development" />
+    <meta name="keywords" content="FRONTENDE, BACKEND" />
+    <meta name="author" content="Thomas Wondwosen" />
+    <meta name="theme-color" content="#673AB6" />
+    <title>Job seeker</title>
+  </head>
+  <body>
+    <nav>
+      <img
+        src="image/logo.webp"
+        alt=" A logo which have a tie and above it a text find job"
+      />
+      <br />
+      <a href="#"> Job list </a><br />
+      <a href="#"> job applied </a><br />
+      <a href="#"> profile </a><br />
+      <img
+        src="image/testimony-1.webp"
+        alt=" image of person daniel tilahun "
+      />
+      <p>Danile <span> (Job Seeker) </span></p>
+    </nav>
+
+    <main>
+      <label for="search"> Search </label>
+      <input type="text" name="search" placeholder="Job Title" />
+      <label for="locations"> Locations </label>
+      <select name="locations" id="locations">
+        <option value="ethiopia">ETHIOPIA</option>
+        <option value="usa">USA</option>
+        <option value="rassia">RUSSIA</option>
+      </select>
+      <br /><br />
+
+      <table>
+        <tr>
+          <td>No</td>
+          <td>Job Title</td>
+          <td>Additional Information</td>
+          <td>Location</td>
+          <td>Status</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Senior Procurement officer</td>
+          <td><a href="see_more.html">See more</a></td>
+          <td>Addis Abeba</td>
+          <td>Open</td>
+        </tr>
+
+        <tr>
+          <td>2</td>
+          <td>Electrical engineer</td>
+          <td><a href="#">See more</a></td>
+          <td>Dire Dawa</td>
+          <td>Open</td>
+        </tr>
+
+        <tr>
+          <td>3</td>
+          <td>Network Engineer</td>
+          <td><a href="#">See more</a></td>
+          <td>Hawasa</td>
+          <td>Closed</td>
+        </tr>
+      </table>
+    </main>
+    <aside>
+      <div>
+        <h2>Filter job by location</h2>
+        <input
+          type="checkbox"
+          id="addis_abeba"
+          name="addis_abeba"
+          value="addis_abeba"
+        />
+        <label for="addis_abeba"> Addis Abeba</label>
+        <input
+          type="checkbox"
+          id="dire_dawa"
+          name="dire_dawa"
+          value="dire_dawa"
+        />
+        <label for="dire_dawa"> Dire Dawa</label>
+        <input type="checkbox" id="hawasa " name="hawasa " value="hawasa " />
+        <label for="hawasa "> Hawasa</label>
+      </div>
+      <div>
+        <h2>Fillter job by Job Title</h2>
+        <input
+          type="checkbox"
+          id="software_developer"
+          name="software_developer"
+          value="software_developer"
+        />
+        <label for="software_developer"> Software Developer</label>
+        <input
+          type="checkbox"
+          id="electrical_engineer"
+          name="electrical_engineer"
+          value="electrical_engineer"
+        />
+        <label for="electrical_engineer"> Electrical Engineer</label>
+      </div>
+    </aside>
+  </body>
+</html>
